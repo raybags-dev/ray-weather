@@ -1,0 +1,151 @@
+@import url('http://fonts.googleleapis.com/css?family=Poppins:400,500,700');
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+   background: #2F303A;
+   font-family: Poppins, sans-serif;
+   font-size: 1.2rem;
+   color: white;
+   min-height: 100vh;
+   overflow: hidden;
+}
+
+.full-height-grow {
+   display: flex;
+   flex-direction: column;
+}
+
+.brand-logo {
+   display: flex;
+   align-items: center;
+   font-size: 1.25em;
+   color: inherit;
+   text-decoration: none;
+}
+
+.brand-logo-name1 {
+   display: flex;
+   font-weight: bold;
+   position: absolute;
+   top: 0%;
+   left: 60%;
+   text-align: center;
+}
+
+.brand-logo-name2 {
+   color: #f32d13f3;
+   font-weight: bold;
+   position: absolute;
+   top: 0%;
+   left: 30%;
+}
+
+.main-nav ul, .footer-nav ul {
+   display: flex;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.main-nav a:hover, .footer-nav a:hover {
+   color: #adadad;
+}
+
+.main-header, main-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.main-header {
+   height: 140px;
+}
+
+.main-footer {
+   height: 70px;
+   background-color: #202027;
+   font-weight: bold;
+}
+
+.social-link {
+   width: 1em;
+   margin-right: .25rem;
+}
+
+.main-footer .container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 40px;
+   flex-grow: 1;
+}
+
+.forecast {
+   font-style: italic;
+   color: white;
+   height: 1em;
+   margin-bottom: 10em;
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%)
+}
+
+.submit_form {
+   float: center;
+   position: relative;
+   top: -3rem;
+   text-align: center;
+}
+
+.input {
+   border: 3px solid #1d86e8;
+   border-right: none;
+   padding: 5px;
+   height: 20px;
+   border-radius: 5px 0 0 5px;
+   outline: none;
+   color: black;
+}
+
+.btn:hover {
+   background-color: #2b8f04;
+}
+
+.btn:focus {
+   align-items: flex;
+   background-color: #619fd8;
+}
+
+.box{
+   height: 20px;
+   border: 1px solid #1d86e8;
+   background: #1d86e8;
+   text-align: center;
+   color: #fff;
+   border-radius: 0 5px 5px 0;
+   cursor: pointer;
+   font-size: 14px;
+}
+
+footer {
+   font-size: 10px;
+   padding: 1px;
+   margin-top: 140px;
+   color: #ffffff;
+   background-color: #1d86e8;
+   text-align: center;
+}
+
+footer {
+   margin-right: -10rem;
+}

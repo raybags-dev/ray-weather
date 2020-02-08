@@ -1,0 +1,25 @@
+{
+  "name": "weather",
+  "version": "1.0.1",
+  "description": "fetches weather using mapbox and darksky api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "app": "nodemon src/app.js -e js"
+  },
+  "engines": {
+    "node": "v8.10.0"
+  },
+  "author": "Raymond",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  }
+}
