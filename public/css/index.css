@@ -17,7 +17,6 @@
 }
 
 .home-page-circle-1 {
-   position: absolute;
    width: 25vw;
    height: 25vw;
    border-radius: 50%;
@@ -28,7 +27,6 @@
 }
 
 .home-page-circle-2 {
-   position: absolute;
    width: 25vw;
    height: 25vw;
    border-radius: 50%;
@@ -39,7 +37,6 @@
 }
 
 .home-page-circle-3 {
-   position: absolute;
    overflow: hidden;
    width: 45vw;
    height: 45vw;
@@ -51,7 +48,6 @@
 .home-page-circle-3::before {
    content: '';
    transform: translate(50%, 50%);
-   position: absolute;
    height: 100%;
    width: 100%;
    border-radius: 50%;
