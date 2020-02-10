@@ -11,7 +11,7 @@ body {
    font-size: 1.2rem;
    color: white;
    min-height: 100vh;
-   /* overflow: hidden; */
+   overflow: hidden;
 }
 
 .full-height-grow {
@@ -109,12 +109,15 @@ body {
 
 .input {
    border: 3px solid #1d86e8;
+   font-style: italic;
+   font-weight: bold;
    border-right: none;
    padding: 5px;
    height: 20px;
-   border-radius: 5px 0 0 5px;
+   border-radius: 5px 5px 5px 5px;
    outline: none;
    color: black;
+
 }
 
 .btn:hover {
@@ -131,10 +134,13 @@ body {
    border: 1px solid #1d86e8;
    background: #1d86e8;
    text-align: center;
+   border-left: 10%;
+   padding-left: 10px;
    color: #fff;
-   border-radius: 0 5px 5px 0;
+   border-radius: 5px 5px 5px 5px;
    cursor: pointer;
    font-size: 14px;
+   border-radius: 10%;
 }
 
 footer {
