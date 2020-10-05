@@ -7,19 +7,25 @@
  :root {
      --bgColor: black;
      --textColorBlack: black;
-     --textColorRed: rgb(151, 123, 123);
+     --textColorRed: rgb(247, 81, 81);
      --textColorWhite: #FFFFFF;
      --main-font: 'Sansita Swashed', cursive;
      --background-image: linear-gradient(to right, #434343 0%, black 100%);
  }
  
+ body {
+     background-color: #04befe;
+ }
+ 
  body #mainBody {
-     margin-top: 2rem;
+     margin-top: 10%;
+     border-radius: 1rem;
      background-color: var(--textColorWhite);
  }
  
  .navbar {
-     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+     border-radius: 1rem 0rem;
+     background-image: linear-gradient(to top, #5aade9 0%, #e3eeff 99%, #e3eeff 100%);
  }
  
  .navbar .lead {
@@ -31,6 +37,7 @@
  .btn {
      border-radius: 4px;
      transform: scale(1.1);
+     color: #FFFFFF;
  }
  
  .form1:focus {
@@ -45,15 +52,29 @@
  }
  
  .navbar .lead h4:nth-child(2) {
-     color: rgb(5, 0, 1);
+     color: rgb(253, 250, 250);
      font-family: var(--main-font);
      text-shadow: 4px 2px 2px rgba(31, 29, 29, 0.4);
  }
  
+ #form1 {
+     color: #FFFFFF;
+ }
+ 
+ .submit_form label {
+     color: #fcf8f8;
+ }
+ 
  .degree {
-     margin-top: -1.5rem;
+     position: relative;
+     padding-top: 1rem;
+     font-size: 30px;
      color: red;
      text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+ }
+ 
+ #results {
+     border-radius: .6em;
  }
  
  section .row p:nth-child(1) {
@@ -66,12 +87,26 @@
      box-shadow: 2px 2px 12px rgb(0, 0, 0, .4);
  }
  
+ #result1,
+ #result2 {
+     padding: 0px 5px 0px 5px;
+ }
+ 
  section #message2 {
      font-family: var( --main-font);
      font-size: 20px;
      padding-left: .1rem;
      padding-right: .1rem;
-     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+     color: var(--textColorWhite);
+ }
+ 
+ section #message1 {
+     font-family: var( --main-font);
+     color: var(--textColorRed);
+ }
+ 
+ #results {
+     background-image: linear-gradient(to top, #5aade9 0%, #e3eeff 99%, #e3eeff 100%);
  }
  
  hr {
